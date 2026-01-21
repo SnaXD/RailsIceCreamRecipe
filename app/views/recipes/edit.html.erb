@@ -1,0 +1,24 @@
+<h1>Ny Opskrift</h1>
+<%= form_with model: @recipe, local: true do |f| %>
+  <div>
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+
+  <div>
+    <%= f.label :instructions %><br>
+    <%= f.rich_text_area :instructions %>
+  </div>
+
+  <div>
+    <%= f.label :content %><br>
+    <%= f.rich_text_area :content %>
+  </div>
+
+  <div>
+    <%= f.label :images %><br>
+    <%= f.file_field :images, multiple: true, accept: "image/*" %>
+  </div>
+
+  <%= f.submit "Opret opskrift" %>
+<% end %>

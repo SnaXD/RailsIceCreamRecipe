@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@font-face {
+    font-family: 'SF Pro Display';
+    src: asset-url('SFPRODISPLAYREGULAR.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+}
