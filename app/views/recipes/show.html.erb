@@ -1,0 +1,57 @@
+<head>
+  <title><%=@recipe.title %></title>
+</head>
+<body>
+<div class="flex flex-col gap-8 p-4">
+
+  <h1 class="text-5xl font-bold"><%= @recipe.title %></h1>
+<div class="flex, flex-col flex-row-1 items-left">
+      <% if Current.user&.favorite?(@recipe) %>
+        <%= button_to "Unfavorite",
+                      recipe_favorite_path(@recipe),
+                      method: :delete,
+                      form_class: "inline-block",
+                      class: "rounded bg-indigo-600 px-2 py-1 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" %>
+      <% else %>
+        <%= button_to "Favorite",
+                      recipe_favorite_path(@recipe),
+                      method: :post,
+                      form_class: "inline-block",
+                      class: "rounded bg-indigo-600 px-2 py-1 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"%>
+      <% end %>
+      <% if @recipe.user == Current.user %>
+        <%= link_to "Edit",
+                    edit_recipe_path(@recipe),
+                    class: "rounded bg-indigo-600 px-2 py-1 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"%>
+        <%= link_to "Delete", recipe_path(@recipe),
+                    method: :delete,
+                    data: { confirm: "Er du sikker?" },
+                    class: "rounded bg-indigo-600 px-2 py-1 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"%>
+      <% end %>
+</div>
+
+
+  <div class="flex overflow-x-auto snap-x snap-mandatory gap-4">
+    <% @recipe.images.each do |image| %>
+      <div class="snap-center shrink-0">
+        <%= image_tag image, class: "w-128 h-128 object-cover rounded-lg" %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="flex gap-6">
+
+    <div class="w-3/4">
+      <h2 class="font-semibold">Instruktioner</h2>
+      <%= @recipe.instructions %>
+    </div>
+
+    <div class="w-1/4">
+      <h2 class="font-semibold">Indhold</h2>
+      <%= @recipe.content %>
+    </div>
+
+  </div>
+
+</div>
+</body>

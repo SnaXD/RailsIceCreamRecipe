@@ -1,4 +1,4 @@
-<h1>Ny Opskrift</h1>
+<h1>Ændre Opskrift</h1>
 <%= form_with model: @recipe, local: true do |f| %>
   <div>
     <%= f.label :title %><br>
@@ -19,6 +19,23 @@
     <%= f.label :images %><br>
     <%= f.file_field :images, multiple: true, accept: "image/*" %>
   </div>
+  <div class="existing-images" style="margin-top: 20px;">
+    <h3>Nuværende Billeder</h3>
+    <% if @recipe.images.attached? %>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        <% @recipe.images.each do |image| %>
+          <div class="image-container" style="text-align: center;">
+            <%= image_tag image.variant(resize_to_limit: [150, 150]) %><br>
 
-  <%= f.submit "Opret opskrift" %>
+            <%= link_to "Slet",
+                        delete_image_recipe_path(image_id: image.id),
+                        data: { turbo_method: :delete, turbo_confirm: "Er du sikker?" },
+                        style: "color: red;" %>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+
+  <%= f.submit "Gem ændringer" %>
 <% end %>

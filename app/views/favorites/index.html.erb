@@ -1,1 +1,11 @@
-<div> Aloha </div>
+<div class="w-full flex flex-col items-center">
+  <h1 class="text-7xl semibold pb-32">🌠 Favoritter 🌠</h1>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-32 gap-y-16">
+    <% @favorites.each do |recipe| %>
+      <%= link_to recipe_path(recipe), class: "recipe-card-link" do %>
+        <%= render partial: "recipes/recipeItem", locals: { recipe: recipe } %>
+      <% end %>
+    <% end %>
+  </div>
+</div>
+
