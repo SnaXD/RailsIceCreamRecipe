@@ -47,7 +47,7 @@ Below are some screenshots showing how the application looks:
 ![Home page](https://raw.githubusercontent.com/SnaXD/RailsIceCreamRecipe/main/app/assets/ReadmeAssets/Forside1.png)
 
 ### Favorites
-![Favorites page](https://raw.githubusercontent.com/SnaXD/RailsIceCreamRecipe/main/app/assets/ReadmeAssets/Farvoritter.png)
+![Favorites page](https://raw.githubusercontent.com/SnaXD/RailsIceCreamRecipe/main/app/assets/ReadmeAssets/Favoritter.png)
 
 ### Browse
 ![Browse page](https://raw.githubusercontent.com/SnaXD/RailsIceCreamRecipe/main/app/assets/ReadmeAssets/Omkring.png)
