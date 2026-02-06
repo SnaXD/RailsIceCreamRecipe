@@ -11,8 +11,10 @@ services:
     tty: true
     environment:
       RAILS_ENV: development
+      DATABASE_URL: sqlite3:/app/storage/development.sqlite3
     command: >
       bash -c "bundle install && 
                bin/rails tailwindcss:build && 
                bin/rails db:prepare && 
+               bin/rails db:seed:replant && 
                bundle exec rails s -b '0.0.0.0'"
