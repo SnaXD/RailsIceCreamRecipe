@@ -3,26 +3,16 @@ version: "3.9"
 services:
   web:
     build: .
-    command: bin/dev
+    container_name: rails_icecream_app
     ports:
       - "3000:3000"
     volumes:
       - .:/app
-      - rails_db:/app/db
-      - rails_storage:/app/storage
-    depends_on:
-      - db
-
-  db:
-    image: postgres:16
+      - bundle_cache:/usr/local/bundle
+    stdin_open: true
+    tty: true
     environment:
-      POSTGRES_USER: rails
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: rails_ice_cream
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
+      RAILS_ENV: development
 
 volumes:
-  rails_db:
-  rails_storage:
-  postgres_data:
+  bundle_cache:
