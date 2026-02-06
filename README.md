@@ -2,35 +2,11 @@
 
 A Ruby on Rails application for browsing and managing ice cream recipes.
 
-## Getting Started
-
-### Prerequisites
-
-- Ruby (version as specified in the project)
-- Bundler
-- Node.js & Yarn (if required by the app)
-- All required gems installed
-
-### Setup
-
-Clone the repository and install dependencies:
-
-```bash
-bundle install
-```
-
-If the project uses JavaScript dependencies:
-
-```bash
-yarn install
-```
-
 ### Running the App
 
-Once all gems and dependencies are installed, start the development server with:
-
 ```bash
-bin/dev
+Docker-Compose build
+Docker-Compose up
 ```
 
 Then open your browser and navigate to:
