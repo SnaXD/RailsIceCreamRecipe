@@ -9,6 +9,9 @@ Docker-Compose build
 Docker-Compose up
 ```
 
+When it shows its listening on port 3000 like this then its ready:
+![Ready image](https://i.imgur.com/mX9Riot.png)
+
 Then open your browser and navigate to:
 
 ```
