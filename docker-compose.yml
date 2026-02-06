@@ -11,4 +11,8 @@ services:
     tty: true
     environment:
       RAILS_ENV: development
-    command: bash -c "bin/rails db:prepare && bundle exec rails s -b '0.0.0.0'"
+    command: >
+      bash -c "bundle install && 
+               bin/rails tailwindcss:build && 
+               bin/rails db:prepare && 
+               bundle exec rails s -b '0.0.0.0'"

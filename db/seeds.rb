@@ -1,85 +1,80 @@
-ActionText::RichText.create!([
-  {name: "instructions", body: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div><strong>Klargørring</strong><br>1. Tilsæt alle dine ingredienser sammen i din Creami-beholder<br>2. Bland alle dine ingredienser sammen i din Creami-beholder<br>3. Lad den fryse i 24 timer<br><br><strong>Tilberedning</strong><br>4. Når den skal laves skal du tage den ud og stille den på bordet i 10 minutter<br>5. På Ninja Creami maskinen Vælg funktionen \"Ice Cream\" eller \"Sobet\"<br>6. Hvis den er meget grynet skal du tilføje lidt væske og vælge \"respin\".<br><br><strong>Indhold:<br></strong>*med guargummi/Let &amp; fit græsk yoghurt<br>Kalorier: 281<br>Fedt: 3,5 g<br>Mættet fedt: 1,5 g<br>Natrium: 368 mg<br>Kulhydrater: 19,5 g<br>Kostfibre: 3 g<br>Sukker: 9 g<br>Protein: 43 g</div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->", record_type: "Recipe", record_id: 1},
-  {name: "content", body: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div>340 g proteinshake (klar til at drikke)<br>90 g græsk yoghurt<br>2 spiseskefulde jordnøddesmørpulver<br>2 spiseskefulde instant budding</div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->", record_type: "Recipe", record_id: 1},
-  {name: "instructions", body: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div><strong>Klargørring</strong><br>1. Tilsæt alle dine ingredienser sammen i din Creami-beholder<br>2. Bland alle dine ingredienser sammen i din Creami-beholder<br>3. Lad den fryse i 24 timer<br><br><strong>Tilberedning</strong><br>4. Når den skal laves skal du tage den ud og stille den på bordet i 10 minutter<br>5. På Ninja Creami maskinen Vælg funktionen \"Ice Cream\" eller \"Sobet\"<br>6. Hvis den er meget grynet skal du tilføje lidt væske og vælge \"respin\".<br><br><br><strong>Indhold:<br></strong>*med proteinpulver/Triple Zero græsk yoghurt<br>Kalorier: 445<br>Fedt: 1 g<br>Mættet fedt: 0,5 g<br>Natrium: 435 mg<br>Kulhydrater: 33 g<br>Kostfibre: 0 g<br>Sukker: 21 g<br>Protein: 76 g</div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->", record_type: "Recipe", record_id: 2},
-  {name: "content", body: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div>300 ml kopper græsk yoghurt - <em>Mix &amp; Match smagsvarianter!</em><br>50 ml mælk - <em>eller mælkeerstatning (tænk mandel/kokos)</em><br>1 tsk vaniljeekstrakt<br>1 ½ skefuld proteinpulver<em> - *Valgfrit (Bland &amp; Match smagsvarianter!)</em><br>Sødemiddel <em>- *Valgfrit (honning, stevia, brune ris/ahornsirup osv.)</em><br>2 spiseskefulde instant budding <em>- eller 10 g usmagt kollagenpulver, 1/4-1/2 tsk guar/xanthangummi (denne ingrediens er *valgfri for at gøre den mere cremet)</em></div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->", record_type: "Recipe", record_id: 2},
-  {name: "instructions", body: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div><strong>Klargørring</strong><br>1. Tilsæt alle dine ingredienser sammen i din Creami-beholder<br>2. Bland alle dine ingredienser sammen i din Creami-beholder<br>3. Lad den fryse i 24 timer<br><br><strong>Tilberedning</strong><br>4. Når den skal laves skal du tage den ud og stille den på bordet i 10 minutter<br>5. På Ninja Creami maskinen Vælg funktionen \"Ice Cream\" eller \"Sobet\"<br>6. Hvis den er meget grynet skal du tilføje lidt væske og vælge \"respin\".<br><br><br><strong>Indhold:</strong><br>*med proteinpulver/Triple Zero græsk yoghurt<br>Kalorier: 445<br>Fedt: 1 g<br>Mættet fedt: 0,5 g<br>Natrium: 435 mg<br>Kulhydrater: 33 g<br>Kostfibre: 0 g<br>Sukker: 21 g<br>Protein: 76 g</div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->", record_type: "Recipe", record_id: 3},
-  {name: "content", body: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div>340 ml mælk <em>- eller mælkeerstatning (tænk mandel/kokos)</em><br>2 spiseskefulde kakaopulver<em> - til chokoladeis</em><br>1 ½ kugle proteinpulver <em>- *Valgfrit (mix og match smagsvarianter!)</em><br>Sødemiddel <em>- *Valgfrit (honning, stevia, brune ris/ahornsirup osv.)</em><br>2 spiseskefulde instant budding <em>- eller 10 g usmagsfri kollagenpulver, 1/4-1/2 tsk guar/xanthangummi (denne ingrediens er *valgfri for at gøre den mere cremet)</em></div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->", record_type: "Recipe", record_id: 3},
-  {name: "instructions", body: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div><strong>Klargørring</strong><br>1. Tilsæt alle dine ingredienser sammen i din Creami-beholder<br>2. Bland alle dine ingredienser sammen i din Creami-beholder<br>3. Lad den fryse i 24 timer<br><br><strong>Tilberedning</strong><br>4. Når den skal laves skal du tage den ud og stille den på bordet i 10 minutter<br>5. Hvis du ikke har noget imod hytteostens konsistens, kan du blande alle ingredienserne sammen i din Creami-beholder.<br>Hvis du vil have det glat, skal du blende eller male alle ingredienserne sammen, inden du tilsætter det til din Creami-beholder.<br>6. På Ninja Creami maskinen Vælg funktionen \"Ice Cream\" eller \"Sobet\"<br>7. Hvis den er meget grynet skal du tilføje lidt væske og vælge \"respin\".<br><br><br><strong>Indhold:</strong><br>*uden proteinpulver<br>Kalorier: 181<br>Fedt: 7,5 g<br>Mættet fedt: 1,2 g<br>Natrium: 340 mg<br>Kulhydrater: 14,5 g<br>Kostfibre: 3,5 g<br>Sukker: 7 g<br>Protein: 14 g</div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->", record_type: "Recipe", record_id: 4},
-  {name: "content", body: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div>350 ml hytteost<br>110 ml mælk - eller mælkeerstatning (tænk mandel/kokos)<br>1 ½ skefuld proteinpulver - *Valgfrit (mix og match smagsvarianter!)<br>Sødemiddel - *Valgfrit (honning, stevia, brune ris/ahornsirup osv.)<br>2 spiseskefulde instant budding - eller 10 g usmagt kollagenpulver, 1/4-1/2 tsk guar/xanthangummi (denne ingrediens er *valgfri for at gøre den mere cremet)</div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->", record_type: "Recipe", record_id: 4}
-])
-ActiveStorage::Blob.create!([
-  {key: "d982y6ymd57i20ehq3qwpgtjg2m6", filename: "Is1-1.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>670, "height"=>771, "analyzed"=>true}, service_name: "local", byte_size: 682879, checksum: "fdeRjcXzkZJrdwQzlQstkg=="},
-  {key: "5ph75cuvb1m921ic0s4kup0x0qny", filename: "Is1.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>676, "height"=>866, "analyzed"=>true}, service_name: "local", byte_size: 755921, checksum: "a5qMTyXrNpTnFCCvQ0Hdtw=="},
-  {key: "1kibux64nuhc4sz8kj3ep34whset", filename: "Is4-1.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>671, "height"=>887, "analyzed"=>true}, service_name: "local", byte_size: 923804, checksum: "qi6BMWac3NgHCk8nulZYqA=="},
-  {key: "fqravq6hlu9ky3ungerik0hj42fk", filename: "Is4-1.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>113, "height"=>150, "analyzed"=>true}, service_name: "local", byte_size: 47013, checksum: "KTwH5G4hDVtJ+PtST12ZYw=="},
-  {key: "pxz7yf1uztyuvuv3nf2875rv7zb7", filename: "Is4-2.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>673, "height"=>854, "analyzed"=>true}, service_name: "local", byte_size: 765954, checksum: "g7FP8RtUYJT+D3rDI/hKxg=="},
-  {key: "9i7mbu1gj5rumy8hpoy9oin6hera", filename: "Is4.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>673, "height"=>890, "analyzed"=>true}, service_name: "local", byte_size: 1097121, checksum: "rHVEoJd8yRPrq8svhP6KUg=="},
-  {key: "eo3gliw9u39e11vfpbl78yj6os5a", filename: "Is4-2.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>118, "height"=>150, "analyzed"=>true}, service_name: "local", byte_size: 45248, checksum: "B0DGtkl0FYVm3wdK0eFsTw=="},
-  {key: "44kskbgiqny32oqg53p960zdkg03", filename: "Is4.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>113, "height"=>150, "analyzed"=>true}, service_name: "local", byte_size: 48096, checksum: "WYEZyeRHm7FUA9QpoDGBhg=="},
-  {key: "jhbheq5h01rzspvtbzh53m45bld6", filename: "Is1-1.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>130, "height"=>150, "analyzed"=>true}, service_name: "local", byte_size: 45294, checksum: "VP/Xs7tEeltFzoy4Mxj7hg=="},
-  {key: "b046c3x15wdnothlav1h04mxmowo", filename: "Is1.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>117, "height"=>150, "analyzed"=>true}, service_name: "local", byte_size: 43775, checksum: "Gd7Bp1Zjw8zbfcqqWTXM5A=="},
-  {key: "pbq4f9m49hvgdyos77hi9nhqqjz4", filename: "Is3-1.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>671, "height"=>908, "analyzed"=>true}, service_name: "local", byte_size: 1148528, checksum: "TbY0z7h2XPXebrB8xCjX0g=="},
-  {key: "rcqdhdzds73xsqnlp41rf7b70c08", filename: "Is3.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>671, "height"=>896, "analyzed"=>true}, service_name: "local", byte_size: 1222972, checksum: "vHS9GMr8U9drIWAbCXClLw=="},
-  {key: "7r1kbrg5iott2b22rg9dup6ikbjj", filename: "Is3-1.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>111, "height"=>150, "analyzed"=>true}, service_name: "local", byte_size: 46630, checksum: "5rEBa8J4S5NRRECcebjgLA=="},
-  {key: "g0yzep7s9gbfowqlw8lujleyojcb", filename: "Is3.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>112, "height"=>150, "analyzed"=>true}, service_name: "local", byte_size: 50299, checksum: "PcWLrCPA4lKtsvCW/RCnKQ=="},
-  {key: "ccfr16akt91pihr615g3agphiseu", filename: "is5-2.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>670, "height"=>891, "analyzed"=>true}, service_name: "local", byte_size: 910247, checksum: "FdWoDqekcQ4o0akuewbsRQ=="},
-  {key: "wvqgwwjfv3df2ycq1og1ahwglbk8", filename: "is5.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>673, "height"=>864, "analyzed"=>true}, service_name: "local", byte_size: 994013, checksum: "C5X3I6XviOwc2dW5ZNyN7w=="},
-  {key: "91rmdkzb1ad61vyp2qugipdjxdfd", filename: "is5.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>117, "height"=>150, "analyzed"=>true}, service_name: "local", byte_size: 51199, checksum: "hYdwlJ4dDAMEDncioHwn4Q=="},
-  {key: "ca992xnc4m2t4ptnjyw10fb6e81x", filename: "is5-2.png", content_type: "image/png", metadata: {"identified"=>true, "width"=>113, "height"=>150, "analyzed"=>true}, service_name: "local", byte_size: 47519, checksum: "QmLUdOlq2IXNM0OzStuZKA=="}
-])
-User.create!([
-  {email_address: "test@test.dk", password_digest: "$2a$12$vz38eT2SHCAVsN6op5j3T.KHIMtpg8YHxOJf8REzBXdRTM.lbtySi"}
-])
-ActiveStorage::VariantRecord.create!([
-  {blob_id: 44, variation_digest: "G0Vst4geCVOXNaQRJ+bGaGFNhTs="},
-  {blob_id: 50, variation_digest: "G0Vst4geCVOXNaQRJ+bGaGFNhTs="},
-  {blob_id: 52, variation_digest: "G0Vst4geCVOXNaQRJ+bGaGFNhTs="},
-  {blob_id: 33, variation_digest: "G0Vst4geCVOXNaQRJ+bGaGFNhTs="},
-  {blob_id: 34, variation_digest: "G0Vst4geCVOXNaQRJ+bGaGFNhTs="},
-  {blob_id: 58, variation_digest: "G0Vst4geCVOXNaQRJ+bGaGFNhTs="},
-  {blob_id: 59, variation_digest: "G0Vst4geCVOXNaQRJ+bGaGFNhTs="},
-  {blob_id: 64, variation_digest: "G0Vst4geCVOXNaQRJ+bGaGFNhTs="},
-  {blob_id: 62, variation_digest: "G0Vst4geCVOXNaQRJ+bGaGFNhTs="}
-])
-ActiveStorage::Attachment.create!([
-  {name: "images", record_type: "Recipe", record_id: 1, blob_id: 33},
-  {name: "images", record_type: "Recipe", record_id: 1, blob_id: 34},
-  {name: "images", record_type: "Recipe", record_id: 2, blob_id: 44},
-  {name: "image", record_type: "ActiveStorage::VariantRecord", record_id: 22, blob_id: 48},
-  {name: "images", record_type: "Recipe", record_id: 2, blob_id: 50},
-  {name: "images", record_type: "Recipe", record_id: 2, blob_id: 52},
-  {name: "image", record_type: "ActiveStorage::VariantRecord", record_id: 24, blob_id: 53},
-  {name: "image", record_type: "ActiveStorage::VariantRecord", record_id: 25, blob_id: 54},
-  {name: "image", record_type: "ActiveStorage::VariantRecord", record_id: 27, blob_id: 56},
-  {name: "image", record_type: "ActiveStorage::VariantRecord", record_id: 28, blob_id: 57},
-  {name: "images", record_type: "Recipe", record_id: 3, blob_id: 58},
-  {name: "images", record_type: "Recipe", record_id: 3, blob_id: 59},
-  {name: "image", record_type: "ActiveStorage::VariantRecord", record_id: 29, blob_id: 60},
-  {name: "image", record_type: "ActiveStorage::VariantRecord", record_id: 30, blob_id: 61},
-  {name: "images", record_type: "Recipe", record_id: 4, blob_id: 62},
-  {name: "images", record_type: "Recipe", record_id: 4, blob_id: 64},
-  {name: "image", record_type: "ActiveStorage::VariantRecord", record_id: 31, blob_id: 65},
-  {name: "image", record_type: "ActiveStorage::VariantRecord", record_id: 33, blob_id: 67}
-])
-Session.create!([
-  {user_id: 1, ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"},
-  {user_id: 1, ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"},
-  {user_id: 1, ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"},
-  {user_id: 1, ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"},
-  {user_id: 1, ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"},
-  {user_id: 1, ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"},
-  {user_id: 1, ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"},
-  {user_id: 1, ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"},
-  {user_id: 1, ip_address: "127.0.0.1", user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"}
-])
-Recipe.create!([
-  {title: "Ninja Creami Protein-is", user_id: 1},
-  {title: "Græsk yoghurtproteinis", user_id: 1},
-  {title: "Creamy Protein Is", user_id: 1},
-  {title: "Cremet hytteostproteinis", user_id: 1}
-])
-Favorite.create!([
-  {user_id: 1, recipe_id: 2},
-  {user_id: 1, recipe_id: 1}
-])
+# 1. Cleanup everything in the correct order
+puts "Wiping database..."
+Session.destroy_all
+Favorite.destroy_all
+Recipe.destroy_all
+User.destroy_all
+
+# 2. Create the User (The Parent)
+puts "Creating user..."
+user = User.create!(
+  email_address: "test@test.dk", 
+  password_digest: "$2a$12$vz38eT2SHCAVsN6op5j3T.KHIMtpg8YHxOJf8REzBXdRTM.lbtySi"
+)
+
+# 3. Create the Recipes (The Children)
+puts "Creating recipes..."
+
+r1 = Recipe.create!(
+  title: "Ninja Creami Protein-is", 
+  user: user,
+  instructions: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div><strong>Klargørring</strong><br>1. Tilsæt alle dine ingredienser sammen i din Creami-beholder<br>2. Bland alle dine ingredienser sammen i din Creami-beholder<br>3. Lad den fryse i 24 timer<br><br><strong>Tilberedning</strong><br>4. Når den skal laves skal du tage den ud og stille den på bordet i 10 minutter<br>5. På Ninja Creami maskinen Vælg funktionen \"Ice Cream\" eller \"Sobet\"<br>6. Hvis den er meget grynet skal du tilføje lidt væske og vælge \"respin\".<br><br><strong>Indhold:<br></strong>*med guargummi/Let &amp; fit græsk yoghurt<br>Kalorier: 281<br>Fedt: 3,5 g<br>Mættet fedt: 1,5 g<br>Natrium: 368 mg<br>Kulhydrater: 19,5 g<br>Kostfibre: 3 g<br>Sukker: 9 g<br>Protein: 43 g</div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->",
+  content: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div>340 g proteinshake (klar til at drikke)<br>90 g græsk yoghurt<br>2 spiseskefulde jordnøddesmørpulver<br>2 spiseskefulde instant budding</div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+)
+
+r2 = Recipe.create!(
+  title: "Græsk yoghurtproteinis", 
+  user: user,
+  instructions: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div><strong>Klargørring</strong><br>1. Tilsæt alle dine ingredienser sammen i din Creami-beholder<br>2. Bland alle dine ingredienser sammen i din Creami-beholder<br>3. Lad den fryse i 24 timer<br><br><strong>Tilberedning</strong><br>4. Når den skal laves skal du tage den ud og stille den på bordet i 10 minutter<br>5. På Ninja Creami maskinen Vælg funktionen \"Ice Cream\" eller \"Sobet\"<br>6. Hvis den er meget grynet skal du tilføje lidt væske og vælge \"respin\".<br><br><br><strong>Indhold:<br></strong>*med proteinpulver/Triple Zero græsk yoghurt<br>Kalorier: 445<br>Fedt: 1 g<br>Mættet fedt: 0,5 g<br>Natrium: 435 mg<br>Kulhydrater: 33 g<br>Kostfibre: 0 g<br>Sukker: 21 g<br>Protein: 76 g</div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"",
+  content: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div>300 ml kopper græsk yoghurt - <em>Mix &amp; Match smagsvarianter!</em><br>50 ml mælk - <em>eller mælkeerstatning (tænk mandel/kokos)</em><br>1 tsk vaniljeekstrakt<br>1 ½ skefuld proteinpulver<em> - *Valgfrit (Bland &amp; Match smagsvarianter!)</em><br>Sødemiddel <em>- *Valgfrit (honning, stevia, brune ris/ahornsirup osv.)</em><br>2 spiseskefulde instant budding <em>- eller 10 g usmagt kollagenpulver, 1/4-1/2 tsk guar/xanthangummi (denne ingrediens er *valgfri for at gøre den mere cremet)</em></div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+)
+
+r3 = Recipe.create!(
+  title: "Creamy Protein Is", 
+  user: user,
+  instructions: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div><strong>Klargørring</strong><br>1. Tilsæt alle dine ingredienser sammen i din Creami-beholder<br>2. Bland alle dine ingredienser sammen i din Creami-beholder<br>3. Lad den fryse i 24 timer<br><br><strong>Tilberedning</strong><br>4. Når den skal laves skal du tage den ud og stille den på bordet i 10 minutter<br>5. På Ninja Creami maskinen Vælg funktionen \"Ice Cream\" eller \"Sobet\"<br>6. Hvis den er meget grynet skal du tilføje lidt væske og vælge \"respin\".<br><br><br><strong>Indhold:</strong><br>*med proteinpulver/Triple Zero græsk yoghurt<br>Kalorier: 445<br>Fedt: 1 g<br>Mættet fedt: 0,5 g<br>Natrium: 435 mg<br>Kulhydrater: 33 g<br>Kostfibre: 0 g<br>Sukker: 21 g<br>Protein: 76 g</div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->",
+  content: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div>340 ml mælk <em>- eller mælkeerstatning (tænk mandel/kokos)</em><br>2 spiseskefulde kakaopulver<em> - til chokoladeis</em><br>1 ½ kugle proteinpulver <em>- *Valgfrit (mix og match smagsvarianter!)</em><br>Sødemiddel <em>- *Valgfrit (honning, stevia, brune ris/ahornsirup osv.)</em><br>2 spiseskefulde instant budding <em>- eller 10 g usmagsfri kollagenpulver, 1/4-1/2 tsk guar/xanthangummi (denne ingrediens er *valgfri for at gøre den mere cremet)</em></div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+)
+
+r4 = Recipe.create!(
+  title: "Cremet hytteostproteinis", 
+  user: user,
+  instructions: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div><strong>Klargørring</strong><br>1. Tilsæt alle dine ingredienser sammen i din Creami-beholder<br>2. Bland alle dine ingredienser sammen i din Creami-beholder<br>3. Lad den fryse i 24 timer<br><br><strong>Tilberedning</strong><br>4. Når den skal laves skal du tage den ud og stille den på bordet i 10 minutter<br>5. Hvis du ikke har noget imod hytteostens konsistens, kan du blande alle ingredienserne sammen i din Creami-beholder.<br>Hvis du vil have det glat, skal du blende eller male alle ingredienserne sammen, inden du tilsætter det til din Creami-beholder.<br>6. På Ninja Creami maskinen Vælg funktionen \"Ice Cream\" eller \"Sobet\"<br>7. Hvis den er meget grynet skal du tilføje lidt væske og vælge \"respin\".<br><br><br><strong>Indhold:</strong><br>*uden proteinpulver<br>Kalorier: 181<br>Fedt: 7,5 g<br>Mættet fedt: 1,2 g<br>Natrium: 340 mg<br>Kulhydrater: 14,5 g<br>Kostfibre: 3,5 g<br>Sukker: 7 g<br>Protein: 14 g</div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->",
+  content: "<!-- BEGIN app/views/layouts/action_text/contents/_content.html.erb\n--><div class=\"trix-content\">\n  <!-- BEGIN /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb\n--><div>350 ml hytteost<br>110 ml mælk - eller mælkeerstatning (tænk mandel/kokos)<br>1 ½ skefuld proteinpulver - *Valgfrit (mix og match smagsvarianter!)<br>Sødemiddel - *Valgfrit (honning, stevia, brune ris/ahornsirup osv.)<br>2 spiseskefulde instant budding - eller 10 g usmagt kollagenpulver, 1/4-1/2 tsk guar/xanthangummi (denne ingrediens er *valgfri for at gøre den mere cremet)</div>\n<!-- END /home/snaxd/.rbenv/versions/3.3.4/lib/ruby/gems/3.3.0/gems/actiontext-8.1.1/app/views/action_text/contents/_content.html.erb --></div>\n<!-- END app/views/layouts/action_text/contents/_content.html.erb -->"
+)
+
+# 4. Create Favorites
+puts "Adding favorites..."
+Favorite.create!(user: user, recipe: r1)
+Favorite.create!(user: user, recipe: r2)
+
+puts "Attaching images to recipes..."
+
+# A helper to attach images safely
+def attach_image(recipe, filename)
+  path = Rails.root.join("db", "seed_assets", filename)
+  if File.exist?(path)
+    recipe.images.attach(
+      io: File.open(path),
+      filename: filename,
+      content_type: "image/png"
+    )
+  else
+    puts "Warning: #{filename} not found in db/seed_assets"
+  end
+end
+
+attach_image(r1, "Is1.png")
+attach_image(r1, "Is1-1.png")
+
+attach_image(r2, "Is3.png")
+attach_image(r2, "Is3-1.png")
+
+attach_image(r3, "Is4.png")
+attach_image(r3, "Is4-1.png")
+attach_image(r3, "Is4-2.png")
+
+attach_image(r4, "is5.png")
+attach_image(r4, "is5-2.png")
+
+puts "All done!"
