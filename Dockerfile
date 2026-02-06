@@ -1,24 +1,41 @@
 FROM ruby:3.2
 
-# Install dependencies
+# System deps
 RUN apt-get update -qq && apt-get install -y \
-  build-essential \
-  nodejs \
-  sqlite3 \
-  libsqlite3-dev
+    build-essential \
+    curl \
+    gnupg \
+    nodejs \
+    npm \
+    sqlite3 \
+    libsqlite3-dev \
+    ca-certificates \
+    unzip
 
-# Create app directory
+# Install Yarn (modern way)
+RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor -o /usr/share/keyrings/yarnkey.gpg \
+ && echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" \
+    | tee /etc/apt/sources.list.d/yarn.list \
+ && apt-get update && apt-get install -y yarn
+
+# Set working directory
 WORKDIR /app
 
-# Install gems first (Docker cache optimization)
+# Cache gems
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
-# Copy project
+# Copy app code
 COPY . .
 
-# Rails port
+# Install JS deps
+RUN yarn install
+
+# Build Tailwind CSS once
+RUN yarn build:css || true
+
+# Expose Rails port
 EXPOSE 3000
 
-# Start Rails
-CMD ["bash", "-c", "rm -f tmp/pids/server.pid && bundle exec rails server -b 0.0.0.0"]
+# Start Rails in development
+CMD ["bash", "-c", "rm -f tmp/pids/server.pid && bin/dev"]

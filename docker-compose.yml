@@ -1,5 +1,4 @@
 version: "3.9"
-
 services:
   web:
     build: .
@@ -8,11 +7,7 @@ services:
       - "3000:3000"
     volumes:
       - .:/app
-      - bundle_cache:/usr/local/bundle
     stdin_open: true
     tty: true
     environment:
       RAILS_ENV: development
-
-volumes:
-  bundle_cache:
